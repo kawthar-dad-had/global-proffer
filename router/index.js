@@ -10,6 +10,7 @@ import SoumissionSoum from '../components/soumissionnaire/profile/soumissionSou.
 import Securite from '../components/soumissionnaire/profile/securite.vue'
 import Notifications from '../components/soumissionnaire/profile/notifications.vue'
 import Contact from '../components/soumissionnaire/contact.vue'
+import Evaluateur from '../components/evaluateur/evaluateur.vue'
 
 Vue.use(VueRouter)
 
@@ -65,6 +66,11 @@ const routes = [
   path: "/contact",
   name: "Contact",
   component: Contact
+ },
+ {
+  path: "/evaluateur",
+  name: "Evaluateur",
+  component: Evaluateur
  }
 ]
 
