@@ -11,6 +11,8 @@ import Securite from '../components/soumissionnaire/profile/securite.vue'
 import Notifications from '../components/soumissionnaire/profile/notifications.vue'
 import Contact from '../components/soumissionnaire/contact.vue'
 import Evaluateur from '../components/evaluateur/evaluateur.vue'
+import DetailsOffre from '../components/soumissionnaire/detailsOffre.vue'
+import SoumissionForm from '../components/soumissionnaire/soumissionForm.vue'
 
 Vue.use(VueRouter)
 
@@ -71,6 +73,16 @@ const routes = [
   path: "/evaluateur",
   name: "Evaluateur",
   component: Evaluateur
+ },
+ {
+  path: "/detailsOffre",
+  name: "DetailsOffre",
+  component: DetailsOffre
+ },
+ {
+  path: "/soumissionForm",
+  name: "SoumissionForm",
+  component: SoumissionForm
  }
 ]
 
